@@ -4,11 +4,15 @@
 //     };
 //   };
 function scrollToAbout() {
-  document.getElementById("about").scrollIntoView();
+  document.getElementById("about").scrollIntoView({ behavior: "smooth" });
 }
 function scrollToMenu() {
-  document.getElementById("content").scrollIntoView();
+  document
+    .getElementById("content")
+    .scrollIntoView({ behavior: "smooth" });
 }
 function scrollToContact() {
-  document.getElementById("contact").scrollIntoView();
+  document
+    .getElementById("contact")
+    .scrollIntoView({ behavior: "smooth" });
 }
